@@ -11,6 +11,7 @@ int main(void)
 {
 
 	char get;
+
 	for (get = 'a'; get <= 'z'; get++)
 		putchar(get);
 	putchar('\n');
