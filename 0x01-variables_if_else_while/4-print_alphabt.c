@@ -17,7 +17,7 @@ int main(void)
 
 	for (get = 'a'; get <= 'z'; get++)
 	{
-		if (low != e && low != q)
+		if (get != e && low != q)
 			putchar(get);
 	}
 	putchar('\n');
