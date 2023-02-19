@@ -13,13 +13,9 @@ int main(void)
 	char get;
 
 	for (get = 'a'; get <= 'z'; get++)
-	{
 		putchar(get);
-	}
 	for (get = 'A'; get <= 'Z'; get++)
-	{
 		putchar(get);
 		putchar('\n');
-	}
 	return (0);
 }
