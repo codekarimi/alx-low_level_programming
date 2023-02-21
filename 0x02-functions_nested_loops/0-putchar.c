@@ -1,7 +1,4 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
-
+#include <main.h>
 /**
  * main - Entry
  *
@@ -9,14 +6,14 @@
  */
 int main(void)
 {
-	char *k = '_putchar';
+	char *k = "_putchar";
 
 	while (*k)
 	{
-		putchar(*k);
-		*k++;
+		_putchar(*k);
+		k++;
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
