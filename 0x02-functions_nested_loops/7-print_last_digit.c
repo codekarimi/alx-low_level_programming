@@ -2,7 +2,7 @@
 
 /**
  *print_last_digit - Entry point
- *@m:valur input
+ *@m: interger input
  *Return: last digit of m
  */
 int print_last_digit(int m)
