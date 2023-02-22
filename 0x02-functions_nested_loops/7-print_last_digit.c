@@ -5,14 +5,14 @@
  *@m: interger input
  *Return: last digit of m
  */
-int print_last_digit(int m)
+int print_last_digit(int r)
 {
 	int n;
 
-	if (m < 0)
-		n = -1 * (m % 10);
+	if (r < 0)
+		n = -1 * (r % 10);
 	else
-		n = m % 10;
+		n = r % 10;
 
 	_putchar((n % 10) + '0');
 	return (n % 10);
