@@ -8,17 +8,14 @@
 int _isupper(int c)
 {
 	char upper;
-	int islower;
+	int islower = 0;
 
 	for (upper = 'A'; upper <= 'Z'; upper++)
 	{
 		if (c == uppercase)
 		{
 			islower = 1;
-		}
-		else
-		{
-			islower = 0;
+			break;
 		}
 	}
 	return (islower);
