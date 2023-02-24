@@ -15,10 +15,11 @@ int _isupper(int c)
 	{
 		if (c == uppercase)
 		{
-			islower = 1;
+			isupper = 1;
 			break;
 		}
 
 	}
+
 	return (isupper);
 }
