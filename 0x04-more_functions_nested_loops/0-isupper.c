@@ -7,15 +7,19 @@
  */
 int _isupper(int c)
 {
+
 	char upper;
-	int islower = 0;
+	int islower;
 
 	for (upper = 'A'; upper <= 'Z'; upper++)
 	{
-		if (c == uppercase)
+		if (c == upper)
 		{
 			islower = 1;
-			break;
+		}
+		else
+		{
+			islower = 0;
 		}
 	}
 	return (islower);
