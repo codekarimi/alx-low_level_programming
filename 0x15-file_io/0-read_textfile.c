@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdlib.h>
-
+#include "main.h"
 
 /**
  * read_textfile - A function that reads a text file and prints
@@ -26,6 +26,13 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	fdo = open(filename, O_RDONLY);
+	if (fdo < 0)
+	{
+		free(temp);
+		return (0);
+	}
+
+	fdr = read(fdo, temp, letters);
 	if (fdr < 0)
 	{
 		free(temp);
