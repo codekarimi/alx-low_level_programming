@@ -1,9 +1,9 @@
-#include "main.h"
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/uio.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include "main.h"
 
 /**
  * append_text_to_file - A function that appends text at the end to the  file
