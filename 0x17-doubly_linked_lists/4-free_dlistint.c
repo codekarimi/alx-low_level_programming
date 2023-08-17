@@ -1,4 +1,4 @@
-nclude "lists.h"
+#include "lists.h"
 
 /**
  * free_dlistint - A function that frees a doubly linked list
