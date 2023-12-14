@@ -9,7 +9,14 @@
   * @value: The value to search for.
   *
   * Return: If the value is not present, -1.
-  *         Otherwise, the index where the value is located.
+  *         Otherwise, the index where the value is rray, left, i, value));
+	return (advanced_binary_recursive(array, i + 1, right, value));
+}
+
+/**
+  * advanced_binary - Searches for a value in a sorted array
+  *                   of integers using advanced binary search.
+  * @array: A pointer to the first located.
   *
   * Description: Prints the [sub]array being searched after each change.
   */
@@ -29,14 +36,7 @@ int advanced_binary_recursive(int *array, size_t left, size_t right, int value)
 	if (array[i] == value && (i == left || array[i - 1] != value))
 		return (i);
 	if (array[i] >= value)
-		return (advanced_binary_recursive(array, left, i, value));
-	return (advanced_binary_recursive(array, i + 1, right, value));
-}
-
-/**
-  * advanced_binary - Searches for a value in a sorted array
-  *                   of integers using advanced binary search.
-  * @array: A pointer to the first element of the array to search.
+		return (advanced_binary_recursive(aelement of the array to search.
   * @size: The number of elements in the array.
   * @value: The value to search for.
   *
